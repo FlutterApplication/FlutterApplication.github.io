@@ -1,6 +1,6 @@
 {
-    "name": "copyable",
-    "short_name": "copyable",
+    "name": "Copyable",
+    "short_name": "Copyable",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
