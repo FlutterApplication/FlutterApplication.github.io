@@ -54,14 +54,11 @@ Some use cases are specified below:
 
 > [**Aman Negi(Aster Joules)**](https://github.com/AmanNegi) - *Initial work*
 
-</br>
-
 ## Feel Free to Contract
 
 * Gmail : asterjoules@gmail.com
 * Instagram : [Aster Joules](https://www.instagram.com/aster_joules/)
 * My Portfolio Website : [https://amannegi.github.io/](https://amannegi.github.io/) - *In Progress*
-</br>
 
 ## Contribute 
 
