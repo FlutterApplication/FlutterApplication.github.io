@@ -23,7 +23,7 @@ Some use cases are specified below:
 </br>
 
 ## Features 🎨
-* One Click Copy.
+* One Click Copy and available for Android and Web Application.
 * Authentication powered by Firebase.
 * Real time data updates across all logged in devices.
 * Offline version available for mobile devices.
