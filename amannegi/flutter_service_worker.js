@@ -3,17 +3,17 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "2fcce9e9ce60ae1dd8e98f7b68f47e1f",
+  "assets/AssetManifest.json": "7d096a2b4a47f475adfdbca3efb3dda9",
 "assets/assets/configs.json": "32ddeb886691f89b3362c16433de2c2b",
 "assets/assets/devpost.png": "8d25150e4cbd81ac88ee2a494846cc67",
 "assets/assets/github.png": "7a4c133e62c55057889b286a6656f862",
 "assets/assets/linkedin.png": "d80f2eea04c9365be16c8bd559bb681c",
+"assets/assets/logo.png": "7eab219b0f3f2eb5d1ba58d37ec2798a",
 "assets/assets/twitter.png": "181a4a2032edc8ef0d854bbd831067ae",
-"assets/FontManifest.json": "3d3bbd93c030401194cf4ceedbeee9e8",
+"assets/FontManifest.json": "b46195787001748a93911a0a95010dec",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
 "assets/fonts/Poppins-Regular.ttf": "093ee89be9ede30383f39a899c485a82",
-"assets/NOTICES": "bf6f9782fb6ae8684a3d88fee4a0e664",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/NOTICES": "94b1e055aadff2977e6ade3466af77f7",
 "canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
 "canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
 "canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
@@ -24,8 +24,8 @@ const RESOURCES = {
 "icons/Icon-512.png": "60c46625cfbe11c24c1efc9896253745",
 "icons/Icon-maskable-192.png": "b4e9f3401b34e0b6b5d8f94a3078c81f",
 "icons/Icon-maskable-512.png": "60c46625cfbe11c24c1efc9896253745",
-"index.html": "6e09c4d23840d64b9fe5950fde0dec9d",
-"/": "6e09c4d23840d64b9fe5950fde0dec9d",
+"index.html": "b3f8029039284b946f11c17ffa8d1a6d",
+"/": "b3f8029039284b946f11c17ffa8d1a6d",
 "main.dart.js": "e948203102a4579353d73e1518e4ca55",
 "manifest.json": "daddbf91243d85dc2cf36ffffe9f987e",
 "version.json": "cc132570d6d238130e38adc59e1f998d"
