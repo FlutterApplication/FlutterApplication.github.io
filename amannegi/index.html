@@ -29,36 +29,78 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="favicon.png" />
 
-    <title>portfolio_web</title>
+    <title>Aman Negi</title>
     <link rel="manifest" href="manifest.json" />
 
     <script>
       // The value below is injected by flutter build, do not touch.
-      var serviceWorkerVersion = "2902840206";
+      var serviceWorkerVersion = "3801206822";
     </script>
 
-    <!-- This script adds the flutter initialization JS code -->
-    <!-- <script src="flutter.js" defer></script> -->
+    <!-- TODO: Make this efficient -->
 
+    <!-- * Preloads the script-->
+    <!-- <script>
+      const preloadLink = document.createElement("link");
+      preloadLink.href = "flutter.js";
+      preloadLink.rel = "preload";
+      preloadLink.as = "script";
+      document.head.appendChild(preloadLink);
+    </script> -->
+
+    <!--? Uses the script -->
+    <!--
+    <script>
+      var usedLaterScript = document.createElement("script");
+      usedLaterScript.src = "https://amannegi.github.io/amannegi/flutter.js";
+      document.body.appendChild(usedLaterScript);
+    </script> -->
+
+    <!-- * Preloads the script, but don't know how to run when DOM rendering completed-->
     <!-- <link
       rel="preload"
       href="https://amannegi.github.io/amannegi/flutter.js"
       as="script"
       crossorigin
     />
-    
-    <script>
+    -->
+
+    <!-- <link rel="preload" href="flutter.js" as="script" crossorigin /> -->
+
+    <!-- <script defer>
       var usedLaterScript = document.createElement("script");
-      usedLaterScript.src = "https://amannegi.github.io/amannegi/flutter.js";
+      usedLaterScript.src = "flutter.js";
       document.body.appendChild(usedLaterScript);
     </script> -->
-    <link rel="preload" href="flutter.js" as="script" crossorigin />
 
-    <!-- <script src="flutter.js" defer></script> -->
-    <!-- Recommended to get Script Beforehand -->
-  </head>
-  <body>
+    <!-- <link
+      rel="preload"
+      href="https://unpkg.com/canvaskit-wasm@0.37.1/bin/canvaskit.wasm"
+      as="fetch"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="https://unpkg.com/canvaskit-wasm@0.37.1/bin/canvaskit.js"
+      as="fetch"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      href="https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5WZLCzYlKw.ttf"
+      as="fetch"
+      crossorigin
+    /> -->
+
+    <!-- TODO: Add Fonts and Image preloader (configs, manifest, images) -->
+
+    <!-- This script adds the flutter initialization JS code -->
     <script src="flutter.js" defer></script>
+
+    <!-- Recommended to get Script Beforehand-->
+  </head>
+  <body style="background-color: #03045e">
     <script>
       window.addEventListener("load", function (ev) {
         // Download main.dart.js
